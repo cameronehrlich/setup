@@ -88,3 +88,7 @@ https://github.com/StartEngine/Twingate_GroupPolicyEditor
 
 # Setup mergetool
 `git config --global diff.tool p4merge`
+
+# Enable hold to repeat keys
+`defaults write -g ApplePressAndHoldEnabled -bool false` (restart required)
+
