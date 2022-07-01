@@ -1,48 +1,50 @@
 # Install Chrome
+https://www.google.com/chrome/downloads/
 
 # Install Visual Studio Code
-# - https://code.visualstudio.com/download
-# - Install GitHub Copilot
-# - Install "Shell Command install 'code' command in PATH"
+https://code.visualstudio.com/download
+
+Install GitHub Copilot
+
+Install "Shell Command install 'code' command in PATH"
 
 # Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 # Install ZSH
-brew install zsh
+`brew install zsh`
 
 # Install Oh-My-ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-brew install zsh-completions
+`brew install zsh-completions`
 
 # Install GitHub CLI
-brew install gh
-# gh auth login
-# gh ssh-key add
+`brew install gh`
+
+`gh auth login`
+
+`gh ssh-key add`
 
 # Install RVM
-brew install gpg
-gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-\curl -sSL https://get.rvm.io | bash --ruby
-# Or if that doesn't work...
-curl -sSL https://rvm.io/mpapis.asc | gpg --import - 
-\curl -sSL https://get.rvm.io | bash --ruby
+`brew install gpg`
+
+`gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
+
+`curl -sSL https://rvm.io/mpapis.asc | gpg --import - `
+
+`\curl -sSL https://get.rvm.io | bash --ruby`
 
 # Install Bundler
-gem install bundler
-
-# Go clone any Git repos you are activey working on
+`gem install bundler`
 
 # Add these aliases to your ~/.zshrc
-alias be="bundle exec "
-... 
-...
-
+`alias be="bundle exec "`
 
 # Install Pods
-gem install cocoapods
-bundle exec pod install
+`gem install cocoapods`
+
+`bundle exec pod install`
 
 # Download and install Zoom
 https://zoom.us/support/download
@@ -55,9 +57,9 @@ https://apps.apple.com/us/app/twingate/id1501592214
 
 # Setup Twingate
 https://github.com/StartEngine/Twingate_GroupPolicyEditor
-- Get API token from Cameron OR Devender
 
 # Setup git aliases in ~/.gitconfig
+```
 [user]
     name = Cameron Ehrlich
     email = cameronehrlich@gmail.com
@@ -79,9 +81,10 @@ https://github.com/StartEngine/Twingate_GroupPolicyEditor
     excludesfile = ~/.gitignore_global
 [pull]
     rebase = false
+```
     
 # Select Xcode version
-sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+`sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
 
 # Setup mergetool
-git config --global diff.tool p4merge
+`git config --global diff.tool p4merge`
